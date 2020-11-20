@@ -140,6 +140,7 @@ video {
 }
 .arrow {
     margin-bottom: 20px;
+    width: 50px;
 }
 .contentBottom {
     clear: both;
