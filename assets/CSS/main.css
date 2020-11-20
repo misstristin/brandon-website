@@ -91,29 +91,36 @@ H3 {
 }
 .navlink {
     margin: 0px 50px 0px 0px;
+    min-height: 30px;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    height: 30px;
+    vertical-align: bottom;
+    margin-bottom: 30px;
 }
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 20px;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 5px 10px 0px #0091DA;
+    top: 30px;
+    background-color: #c1c1c1;
+    min-width: 200px;
+    box-shadow: 0px 1px 10px 0px #EAAA00;
     z-index: 1;
 }
+.dropdown:hover .navlink{
+    color: #0091DA;
+}
 .dropdown-content a {
-    color: black;
+    color: #000000;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: #fde090;
+    background-color: #0091DA;
 }
 .dropdown:hover .dropdown-content {
     display: block;
