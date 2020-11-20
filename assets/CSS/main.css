@@ -113,7 +113,7 @@ H3 {
 .dropdown-content .arrowHolder{
     background: #000000;
     text-align: left;
-    padding-left: 15px;
+    padding-left: 12px;
     padding-bottom: 5px;
 }
 .dropdown:hover .navlink{
