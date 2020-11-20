@@ -177,7 +177,7 @@ video {
     font-size: 16px;
     margin: 0px auto 40px auto;
     padding: 25px 0px;
-    box-shadow: 2px 4px 4px #000000;
+    box-shadow: 2px 4px 1px #000000;
 }
 .arrowMain {
     margin-bottom: 20px;
