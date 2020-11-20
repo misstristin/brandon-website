@@ -68,7 +68,7 @@ a:hover {
     margin: auto;
     font-style: italic;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #0091DA;
 }
 
@@ -172,8 +172,9 @@ video {
     width: 250px;
     min-height: 18px;
     background-color: #0091DA;
-    color: white;
+    color: #ffffff;
     font-family: "Arial Black", "Helvetica Neue", helvetica, sans-serif;
+    font-size: 16px;
     margin: 0px auto 40px auto;
     padding: 25px 0px;
     box-shadow: 2px 4px 4px #000000;
