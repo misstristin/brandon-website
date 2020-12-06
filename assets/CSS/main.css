@@ -150,6 +150,9 @@ video {
     float: left;
     margin: 0px 30px 30px 0px;
 }
+.contentTop{
+    margin-top: 30px;
+}
 .contentMiddle p, .contentBottom p {
     line-height: 23px;
     margin-bottom: 15px; 
@@ -171,13 +174,14 @@ video {
     border-width: 0px;
     margin-bottom: 40px;
 }
-#bottomRightQuote hr{
+#bottomRightQuote hr, .contentBottom hr{
     width: 75%;
     height: 2px;
     background-color: #EAAA00;
     border-width: 0px; 
     display: inline-block;
 }
+
 #buttonSectionTitle {
     font-size: 20px;
     color: #ffffff;
@@ -232,9 +236,27 @@ video {
 #copyright{
     font-size: 11pt;
 }
-#aboutMiddle{
+
+.contentMiddle {
     clear: both;
 }
+
+.contentMiddle ul li {
+    line-height: 20px;
+    list-style: none; /*removes standard bullet and color */
+    margin-bottom: 10px;
+    padding-left: 20px; /*accounts for hanging indent */
+    text-indent: -10px; /*adds hanging indent */
+}
+
+.contentMiddle  ul li::before {
+    content: "\2022";  /* \2022 is the unicode for a bullet */
+    color: #0091DA;
+    font-weight: bold; 
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 10px; /* Also needed for space (tweak if needed) */
+}
+
 #aboutH3 {
     margin-top: 50px;
     margin-bottom: 15px;
@@ -244,33 +266,23 @@ video {
     font-size: 18px;
     margin-bottom: 10px;
 }
-#aboutMiddle ul {
-    line-height: 30px;
-    list-style: none;
-}
-
-#aboutMiddle  ul li::before {
-    content: "\2022";  /* \2022 is the unicode for a bullet */
-    color: #0091DA;
-    font-weight: bold; 
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 25px; /* Also needed for space (tweak if needed) */
-    margin-left: 0px; /* Also needed for space (tweak if needed) */
-  }
 
 #aboutBig {
     margin: 30px auto 0px auto;
     display: block;
     width: 300px;
 }
+
 #aboutLittlePicHolder{
     margin: 0px auto 0px auto;
     text-align: center;
 }
+
 #aboutLittleOne{
     width: 200px;
     margin-top: 20px;
 }
+
 #aboutLittleTwo{
     width: 200px;
     margin-top: -60px;
@@ -290,4 +302,13 @@ video {
 }
 #quoteRightSpacer {
     margin-left: 30px;
+}
+#servicesBlueSmallHeader {
+    color: #0091DA;
+    font-size: 16px;
+    font-weight: bold;
+}
+.blueInlineText {
+    color: #0091DA;
+    font-weight: bold;
 }
