@@ -228,3 +228,18 @@ video {
 #aboutMiddle{
     clear: both;
 }
+#aboutH3 {
+    margin-top: 50px;
+}
+#aboutMiddle ul {
+    line-height: 30px;
+    list-style: none;
+}
+ #aboutMiddle  ul li::before {
+    content: "\2022";  /* \2022 is the unicode for a bullet */
+    color: #0091DA;
+    font-weight: bold; 
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 25px; /* Also needed for space (tweak if needed) */
+    margin-left: 0px; /* Also needed for space (tweak if needed) */
+  }
