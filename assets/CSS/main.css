@@ -174,12 +174,20 @@ video {
     border-width: 0px;
     margin-bottom: 40px;
 }
-#bottomRightQuote hr, .contentBottom hr{
+#bottomRightQuote hr {
     width: 75%;
     height: 2px;
     background-color: #EAAA00;
     border-width: 0px; 
     display: inline-block;
+}
+.contentBottom hr {
+    width: 35%;
+    height: 3px;
+    background-color: #EAAA00;
+    border-width: 0px;
+    display: block;
+    margin: 0px auto 20px auto;
 }
 
 #buttonSectionTitle {
@@ -211,8 +219,8 @@ video {
 }
 .contentBottom {
     clear: both;
-    text-align: left;
-    margin-bottom: 20px;    
+    text-align: center;
+    margin: 30px 0px;    
 }
 .imgPortrait{
     height: 200px;
@@ -268,7 +276,7 @@ video {
 }
 
 #aboutBig {
-    margin: 30px auto 0px auto;
+    margin: 0px auto;
     display: block;
     width: 300px;
 }
@@ -311,4 +319,15 @@ video {
 .blueInlineText {
     color: #0091DA;
     font-weight: bold;
+}
+.marketingLink a:link, .marketingLink a:hover, .marketingLink a:visited {
+    color: #EAAA00;
+    font-size: 22px;
+}
+.contentBottomTestimonial {
+    width: 960px;
+    height: 250px;
+    background-color: #0091DA;
+    color: #000000;
+    margin: 50px auto;
 }
