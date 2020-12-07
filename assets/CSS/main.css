@@ -396,3 +396,12 @@ video {
 #contentBottomContact {
     text-align: left;
 }
+
+form {
+    margin: 0px 100px;
+    background-color: #0091DA;
+    width: 360px;
+    min-height: 300px;
+    display: inline;
+    float: left;
+}
