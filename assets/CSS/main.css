@@ -141,17 +141,41 @@ H4 {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-#btLogo {
+.btLogoNav{
     height: 100px;
     margin: 10px 30px -10px 30px;
 }
+#btLogoAbout {
+    height: 100px;
+    margin: 10px 30px -10px 30px;
+}
+#btLogoContact{
+    height: 130px;
+    margin: 10px 0px 0px auto; 
+}
+
 video {
     display: inline;
     float: left;
     margin: 0px 30px 30px 0px;
 }
+#brandonPortrait {
+    display: inline;
+    float: left;
+    margin: 0px auto 30px auto;
+}
 .contentTop{
     margin-top: 30px;
+    text-align: center;
+}
+#contentTopLeftContact {
+    text-align: center;
+    width: 650px;
+    margin: 0px auto;
+}
+#contentTopRightContact {
+    text-align: center;
+    margin: 0px auto;
 }
 .contentMiddle p, .contentBottom p {
     line-height: 23px;
@@ -166,6 +190,11 @@ video {
     float: left;
     width: 400px;
     text-align: center;
+}
+#middleLeft h2 {
+    text-align: center;
+    margin: 0px auto;
+    width: 560px;
 }
 #middleRight hr {
     width: 65%;
@@ -223,7 +252,7 @@ video {
     margin: 30px 0px;    
 }
 .imgPortrait{
-    height: 200px;
+    height: 300px;
     margin: 0px 10px 0px 0px;
 }
 
@@ -247,8 +276,13 @@ video {
 
 .contentMiddle {
     clear: both;
+    text-align: left;
 }
 
+.contentMiddle H2, .contentMiddle H4 {
+    text-align: left;
+    margin: 10px 0px;
+}
 .contentMiddle ul li {
     line-height: 20px;
     list-style: none; /*removes standard bullet and color */
@@ -355,4 +389,10 @@ video {
 .testimonialSpacerBottom {
     clear: both;
     min-height: 10px;
+}
+#contactH2, #contactH4 {
+    text-align: center;
+}
+#contentBottomContact {
+    text-align: left;
 }
