@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     color: #ffffff;
-    font-size: 12 pt;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -50,12 +50,14 @@ a:hover {
 }
 
 .footer p{
-    line-height: 20px;
+    line-height: 25px;
     font-size: 14px;
+    color: #0091DA;
 }
 
 #copyright{
     font-size: 10px;
+    color: #ffffff;
 }
 
 
@@ -178,12 +180,12 @@ video {
 }
 #contentTopLeft {
     text-align: center;
-    width: 560px;
+    width: 480px;
     margin: 0px auto;
 }
 #contentTopRight {
     text-align: center;
-    width: 400px;
+    width: 480px;
     margin: 0px auto;
     float: left;
 }
