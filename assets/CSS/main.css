@@ -170,7 +170,6 @@ video {
     display: inline;
     float: left;
     width: 300px;
-    margin: 0px 50px 0px 0px;
 }
 .contentTop{
     margin: 30px auto 0px auto;
@@ -182,6 +181,7 @@ video {
     text-align: center;
     width: 480px;
     margin: 0px auto;
+    float: left;
 }
 #contentTopRight {
     text-align: center;
@@ -203,11 +203,19 @@ video {
     width: 400px;
     text-align: center;
 }
-#middleLeft h2 {
-    text-align: center;
+#middleLeftContact {
+    width: 480px;
     margin: 0px auto;
-    width: 560px;
+    float: left;
 }
+
+#middleRightContact {
+    width: 480px;
+    margin: 0px auto;
+    float: left;
+
+}
+
 #middleRight hr {
     width: 65%;
     height: 1px;
@@ -215,13 +223,7 @@ video {
     border-width: 0px;
     margin-bottom: 40px;
 }
-#bottomRightQuote hr {
-    width: 75%;
-    height: 2px;
-    background-color: #EAAA00;
-    border-width: 0px; 
-    display: inline-block;
-}
+
 .contentBottom hr {
     width: 35%;
     height: 3px;
@@ -341,21 +343,17 @@ video {
     margin-top: -60px;
     margin-left: 20px;
 }
-#bottomRightQuote {
-    margin: 100px auto 0px auto;
+
+.bottomRightQuote p {
+    margin: 0px 40px;
     text-align: left;
 }
-#bottomRightQuote p {
-    padding: 0px 20px;
+
+#bottomRightQuote {
+    margin: 50px auto 0px auto;
+    text-align: left;
 }
 
-.blueQuote {
-    display: inline;
-    width: 50px;
-}
-#quoteRightSpacer {
-    margin-left: 30px;
-}
 #servicesBlueSmallHeader {
     color: #0091DA;
     font-size: 16px;
@@ -401,6 +399,8 @@ video {
 }
 #contactH2, #contactH4 {
     text-align: center;
+    width: 480px;
+    margin: 0px auto;
 }
 #contentBottomContact {
     text-align: left;
@@ -439,4 +439,7 @@ form p{
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
+}
+.aboutQuote {
+    width: 400px;
 }
